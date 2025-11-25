@@ -60,5 +60,42 @@ Enter choice: """)
     elif menu == "2":
         for l in loan:
             print(l)
+    elif menu == "3":
+            edit_id = input("Enter the loan ID you want to edit: ")
 
+            found = False
+            for l in loan:
+                if str(l["loan_id"]) == str(edit_id):
+                    found = True
+                    print(f"\nCurrent loan record: {l}")
+                    print(f"Current 'returned' value: {l['returned']}")
+                    
+                    choice = input("Toggle returned value? (y/n): ").lower()
+
+                    if choice == "y":
+                        l["returned"] = not l["returned"]
+                        print("Returned value has been toggled.")
+                    else:
+                        print("No changes made.")
+
+                    print("Updated record:")
+                    print(l)
+                    break
+    elif menu == "4":
+        remove_id = input("Enter the loan id to be removed")
+        if remove_id in loan:
+            loan.remove(remove_id)
+            print(f'{remove_id} has been succesfully removed')
+        else:
+            print("loan id not found....")
+    elif menu == "5":
+        print("Exiting the terminal ")
+        
 Task()
+    
+
+
+
+                    
+    
+
