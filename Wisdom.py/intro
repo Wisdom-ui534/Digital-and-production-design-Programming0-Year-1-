@@ -1,0 +1,311 @@
+Phase 0 – Learn the foundations (1–2 weeks)
+
+Before writing your app, learn the basics.
+
+Step 1: Learn Git
+
+You'll use Git every day as a software engineer.
+
+Topics:
+
+What Git is
+Repositories
+Commits
+Branches
+Pull requests (later)
+GitHub
+
+Practice:
+
+Create a GitHub account.
+Create your first repository.
+Make changes and commit them.
+Step 2: Learn TypeScript
+
+Don't skip this.
+
+Learn:
+
+Variables
+Functions
+Objects
+Arrays
+Interfaces
+Classes
+Loops
+Async/await
+Modules
+
+By the end, you should be able to write small programs comfortably.
+
+Step 3: Learn React
+
+React Native is based on React, so understanding React first makes learning React Native much easier.
+
+Learn:
+
+Components
+JSX
+Props
+State
+Event handling
+useState
+useEffect
+Lists
+Conditional rendering
+
+Build a few simple web apps to practice these ideas.
+
+Phase 1 – Set up your development environment
+
+Install:
+
+Node.js
+VS Code
+Git
+Android Studio (for the Android emulator)
+Expo Go (on your Android or iPhone)
+
+We'll use Expo because it's the easiest way to start with React Native.
+
+Your first app will simply display:
+
+Welcome to Exploring Careers
+
+When you see that on your phone, you've completed your first milestone.
+
+Phase 2 – Learn React Native
+
+Build a few small practice apps before starting your main project.
+
+Practice App 1
+
+Counter App
+
+Learn:
+
+Buttons
+State
+Styling
+Practice App 2
+
+To-do List
+
+Learn:
+
+Lists
+Forms
+TextInput
+Deleting items
+Practice App 3
+
+Weather App
+
+Learn:
+
+APIs
+Fetch
+Loading states
+Error handling
+
+After these, you'll be ready for your main project.
+
+Phase 3 – Start Exploring Careers
+
+Create a new project.
+
+Suggested folders:
+
+exploring-careers/
+
+├── app/
+├── components/
+├── screens/
+├── hooks/
+├── services/
+├── types/
+├── assets/
+├── utils/
+└── README.md
+Phase 4 – Design the screens
+
+Don't code yet.
+
+List every screen you need.
+
+Splash Screen
+
+↓
+
+Welcome
+
+↓
+
+Sign Up
+
+↓
+
+Login
+
+↓
+
+Home
+
+↓
+
+Career Survey
+
+↓
+
+Loading
+
+↓
+
+Results
+
+↓
+
+Career Details
+
+↓
+
+Saved Careers
+
+↓
+
+Profile
+
+This is part of software engineering: planning before building.
+
+Phase 5 – Build the UI
+
+Only focus on making the screens look good.
+
+No AI.
+
+No database.
+
+No login.
+
+Just navigation.
+
+Phase 6 – Navigation
+
+Learn React Navigation.
+
+Users should be able to move between screens.
+
+For example:
+
+Home
+
+↓
+
+Survey
+
+↓
+
+Results
+
+↓
+
+Profile
+Phase 7 – Create the survey
+
+Questions like:
+
+What subjects do you enjoy?
+Do you enjoy working with people?
+Would you rather work indoors or outdoors?
+What matters most to you in a job?
+What hobbies do you have?
+
+Store the answers in memory first.
+
+Phase 8 – Build the backend (Python)
+
+Now start learning Python.
+
+You'll build an API using FastAPI.
+
+It will:
+
+Receive survey answers.
+Process them.
+Return career recommendations.
+
+Example:
+
+App
+
+↓
+
+Python API
+
+↓
+
+Career Analysis
+
+↓
+
+Results
+Phase 9 – Add AI
+
+Instead of writing all the career advice yourself, your Python backend can send the survey data to an AI model.
+
+The AI returns suggestions, which your app displays.
+
+Phase 10 – Database
+
+Add:
+
+User accounts
+Saved results
+Favourite careers
+Progress tracking
+Phase 11 – Improve the app
+
+Examples:
+
+Dark mode
+Animations
+Charts
+Accessibility improvements
+Better error handling
+Documentation to use
+
+Keep these official resources handy as references while you build:
+
+React: https://react.dev
+React Native: https://reactnative.dev
+Expo: https://expo.dev
+TypeScript: https://www.typescriptlang.org/docs
+FastAPI: https://fastapi.tiangolo.com
+Git: https://git-scm.com/doc
+
+You don't need to read every page. Read the sections that match the feature you're working on.
+
+How we'll work together
+
+I suggest we build this like a mentor would guide a junior developer.
+
+Week 1
+
+✅ Install everything
+✅ Learn Git
+✅ Learn TypeScript basics
+✅ Build your first React app
+
+Week 2
+
+✅ Learn React properly
+✅ Build three small React projects
+
+Week 3
+
+✅ Learn React Native with Expo
+✅ Run your first mobile app on your phone
+
+Week 4
+
+✅ Start building Exploring Careers
